@@ -1,0 +1,106 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$width: 868px;
+$pbottom:14px;
+$blue: #1f93c4;
+$orange: #e36b0a;
+
+b, strong{
+  font-weight:bold;
+}
+
+i{
+  font-style:italic;
+}
+
+.clear{
+  clear:both;
+}
+
+.blue{
+  color:$blue;
+  
+  a{
+    text-decoration:none;
+    color:$blue;
+  }
+}
+
+.orange{
+  color:$orange;
+  
+}
+
+p.thankyou{
+  color:red;
+  font-size:12px;
+}
+
+ul.errorlist{
+  text-align:left;
+  color:red;
+  font-size:10px;
+  padding-left:13px;
+  li{
+    
+  }
+}
+
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/MyriadPro-Regular.eot');
+  src: local('☺'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.woff') format('woff'),  url('../fonts/MyriadPro-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h2, #page h1{
+  font-family:Arial;
+  font-size:24px;
+  color:#e36b0a;
+  margin-bottom:20px;
+}
+
+p{
+  font-family:"Myriad Pro";
+  font-size:14px;
+  margin-bottom:$pbottom;
+  line-height:20px;
+}
+
+main{
+  width:$width;
+  margin:0px auto;
+  display:block;
+  padding:135px 30px 0px;
+  
+}
+
+section > h2, #page h1{
+  padding-top:55px;
+}
+
+main > section{
+  border-bottom:1px double #c0cbd7;
+  
+}
+
+@import "header";
+
+@import "why";
+
+@import "services";
+
+@import "team";
+
+@import "contact";
+
+@import "footer";
+
+@import "page"

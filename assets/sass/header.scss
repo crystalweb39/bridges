@@ -1,0 +1,102 @@
+header{
+  border-bottom:1px double #5c81a3;
+  height:134px;
+  background:url(../images/header_back.jpg) repeat-x left top;
+  position:fixed;
+  width:100%;
+  z-index:1000;
+  .wrapper{
+      width:$width;
+      margin:0px auto;
+      position:relative;
+      height:100%;
+      padding:0px 30px;
+  }
+
+  
+  #logo{
+    position:absolute;
+    left:30px;
+    top:0px;
+  }
+  
+  .header_info{
+    position:absolute;
+    right:30px;
+    top:23px;
+    
+    p{
+      font-size:20px;
+      color:#3577b2;
+      margin-bottom:$pbottom/2
+      
+    }
+    p.orange{
+      text-align:right;
+      color:$orange;
+    }
+    
+   
+  }
+  
+  nav{
+    position:absolute;
+    bottom:2px;
+    right:30px;
+    
+    ul{
+      overflow:hidden;
+      
+      li{
+        float:left;
+        
+           font-size:14px;
+          font-family:Arial;
+          font-weight:bold;      
+        
+        a{
+          text-decoration:none;
+
+          display:block;
+          color:#3477b1;
+          span{
+            padding:13px 10px 14px 2px;
+            display:block;
+            margin-left:8px;
+          }
+        }
+        
+        
+      }
+      
+      
+         li:hover a{
+            background:url(../images/hover_left.png) no-repeat left top;
+            
+            color:$orange;
+          }
+          
+          li:hover span{
+            background:url(../images/hover_right.png) no-repeat right top;
+           
+           
+           
+          }
+          
+          
+          li.nohover:hover{
+            a{
+              background:none;
+              color:#3477b1;
+            }
+            span{
+              background:none;
+              
+            }
+          }
+      
+    }
+  }
+  
+  
+}

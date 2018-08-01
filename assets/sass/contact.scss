@@ -1,0 +1,77 @@
+#contact{
+  p{
+    font-family:Arial;
+  }
+  
+  p.phone{
+    font-size:20px;
+    color:$orange;
+  }
+  
+  .position{
+    table{
+      table-layout:fixed;
+    }
+    
+    
+  }
+  
+  .enquire{
+    clear:both;
+    
+    margin-top:52px;
+    margin-bottom:50px;
+    
+    table{
+      table-layout:fixed;
+      font-size:14px;
+      font-family:Arial;
+      
+      tr > td{
+        vertical-align:top;
+        text-align:right;
+        padding-bottom:5px;
+
+      }
+      
+      td.label{
+        padding-top:11px;
+      }
+      
+      td.agree{
+        text-align:left;
+        padding-left:10px;
+      }
+      
+      input[type='text']{
+        width:245px;
+        height:30px;
+        border:1px double #ccc;
+        font-size:14px;
+        font-family:Arial;
+      }
+      
+      textarea{
+        width:291px;
+        height:160px;
+        resize:none;
+        border:1px double #ccc;
+        font-size:14px;
+        font-family:Arial;
+        
+      }
+      
+      input.submit{
+        float:right;
+        width:87px;
+        height:37px;
+        font-size:24px;
+        background:url(../images/send_btn.jpg) no-repeat left top;
+        border:0px;
+        color:white;
+        cursor:pointer;
+      }
+      
+    }
+  }
+}

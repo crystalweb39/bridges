@@ -1,0 +1,27 @@
+#why{
+ 
+  position:relative;
+  height:454px;
+  
+  h2{
+    font-weight:bold;
+    font-size:22px;
+    span{
+      font-style:italic;
+      color:#2f75b1;
+    }
+  }
+  
+  #slides{
+    height:454px;
+    width:868px;
+    overflow:hidden;
+  }
+  
+  .main{
+    position:absolute;
+    top:30%;
+    width:444px;
+    z-index:10;
+  }
+}

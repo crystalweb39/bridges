@@ -1,0 +1,37 @@
+#page{
+  border-bottom:1px double #c0cbd7;
+  h2{
+  font-size: 20px;
+  color: #1f93c4;
+  margin-bottom:5px;
+  }
+  
+  
+  p{
+    font-family:Arial;
+  }
+  
+  ul{
+    list-style:disc outside none;
+    font-family:Arial;
+    font-size:14px;
+    padding-left:30px;
+    margin:-5px 0px 20px 0px;
+    
+    
+    li{
+      padding:2px 0px;
+    }
+  }
+  
+  table{
+    font-size:14px; 
+    font-family:Arial;
+    
+    
+    tr > td{
+      padding-bottom:5px;
+    }
+  }
+  
+}

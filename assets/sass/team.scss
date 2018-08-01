@@ -1,0 +1,48 @@
+#team{
+   font-family:Arial;
+   p{
+     font-family:Arial;
+   }
+   
+   p.linkedin{
+
+     img{
+       float:left;
+       margin-right:10px;
+     }
+     
+     line-height:38px;
+   }
+   
+  .member{
+    float:left;
+    margin-bottom:48-$pbottom;
+    .thumb{
+      width:135px;
+      float:left;
+      img{
+        border:1px double #a6a6a6;
+      }
+    }
+    
+    .description{
+      float:left;
+      width:290px;
+      
+      .name{
+       
+        font-size:20px;
+        color:#1f93c4;
+      }
+      
+      .position{
+        font-style:italic;
+        font-size:14px;
+        margin-bottom:$pbottom;
+        
+      }
+    }
+    
+    
+  }
+}
